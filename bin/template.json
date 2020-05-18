@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "NODE_ENV=development mywebpack",
+    "build": "NODE_ENV=production mywebpack"
+  },
+  "devDependencies": {
+    "webpack-setting": "^1.1.9"
+  }
+}

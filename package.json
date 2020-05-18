@@ -1,0 +1,21 @@
+{
+  "name": "serein-cli",
+  "version": "1.0.0",
+  "main": "./bin/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "NODE_ENV=development mywebpack",
+    "build": "NODE_ENV=production mywebpack"
+  },
+  "bin": {
+    "serein-cli": "./bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "dependencies": {
+    "commander": "^5.1.0",
+    "ora": "^4.0.4"
+  }
+}
