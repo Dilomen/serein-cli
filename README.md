@@ -7,7 +7,7 @@
 ### 安装命令
 
 ```js
-npm install -g serein-cli -g
+npm install -g serein-cli
 ```
 
 ### 生成项目
