@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,6 +9,6 @@
     "build": "NODE_ENV=production mywebpack"
   },
   "devDependencies": {
-    "webpack-setting": "^1.1.9"
+    "webpack-setting": "^1.2.6"
   }
 }
